@@ -1,0 +1,36 @@
+{
+  "patients": [
+    {
+      "id": "mkh2sgb635hbx04vb28",
+      "name": "Ali Yilmaz",
+      "email": "ali@mail.com",
+      "phone": "555-1234",
+      "birthDate": null,
+      "createdAt": "2026-01-16T16:11:08.562Z",
+      "updatedAt": "2026-01-16T16:11:08.562Z"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "mkh2s9whh72972m5dtc",
+      "name": "Dr. Mehmet Oz",
+      "email": "mehmet@clinic.com",
+      "specialization": "Kardiyoloji",
+      "phone": null,
+      "createdAt": "2026-01-16T16:11:00.257Z",
+      "updatedAt": "2026-01-16T16:11:00.257Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "mkh2t6mm5g60suuqsna",
+      "patientId": "mkh2sgb635hbx04vb28",
+      "doctorId": "mkh2s9whh72972m5dtc",
+      "appointmentDate": "2026-01-20T10:00:00Z",
+      "status": "scheduled",
+      "notes": "Kontrol muayenesi",
+      "createdAt": "2026-01-16T16:11:42.670Z",
+      "updatedAt": "2026-01-16T16:11:42.670Z"
+    }
+  ]
+}

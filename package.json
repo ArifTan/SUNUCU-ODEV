@@ -1,0 +1,25 @@
+{
+  "name": "clinic-appointment-api",
+  "version": "1.0.0",
+  "description": "Klinik Randevu Yönetim Sistemi - MVC RESTful API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "mvc",
+    "restful",
+    "api",
+    "clinic",
+    "appointment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lowdb": "^5.1.0"
+  }
+}
